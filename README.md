@@ -31,20 +31,23 @@
 ```bash
 git clone https://github.com/Kritika-Jha/BixieDesk.git
 cd BixieDesk
-2. Backend Setup
+'''
+###2. Backend Setup
 Install Dependencies
 Navigate to the backend folder and install the required packages:
 
+```bash
 cd backend
 npm install   
 pip install -r requirements.txt
+'''
 
-Set Up MySQL Database
+###3. Set Up MySQL Database
 Start MySQL Server:
-
+```bash
 mysql -u root -p
 Create a new database:
-
+'''
 sql
 CREATE DATABASE bixiedesk;
 Import the schema (if available):
