@@ -1,6 +1,4 @@
-Apologies for the confusion! Here's the properly formatted markdown structure for your README:
 
-```markdown
 # BixieDesk – AI-Powered Sales & Invoice Management
 
 🚀 **BixieDesk** is an AI-powered business assistant that simplifies sales forecasting, automates invoice processing, and enables seamless database interactions. Ask Bixie anything—no more writing complex SQL queries!
@@ -26,7 +24,7 @@ Apologies for the confusion! Here's the properly formatted markdown structure fo
 - **ML model** for sales predictions (in progress)
 - **OCR** for invoice extraction (planned)
 
-## Installation & Setup
+### Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
