@@ -159,7 +159,7 @@ We welcome contributions! Here's how you can contribute:
 
 ## Contact
 
-For inquiries, reach out to Kritikajha@example.com.
+For inquiries, reach out to kritikajha247@gmail.com
 
 ---
 
