@@ -1,0 +1,113 @@
+.chatbot {
+  background-color: black;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 80px; /* Adjust based on navbar height */
+  background-image: url('../assets/images/imgBg.png');
+  /* Replace with your actual image URL */
+  background-size: cover; /* Ensures image covers the whole section */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.chatbot-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 150px auto;
+  padding: 20px;
+  width: 800px;
+  max-width: 90%;
+  text-align: center;
+  background: #8f8bc8;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensures it follows normal document flow */
+  z-index: 10; /* Keeps it above background elements but below other UI elements */
+}
+
+
+.chatbot-div h2 {
+  margin-bottom: 20px;
+}
+
+.chatbot-input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.chatbot-input:focus {
+  border-color: #000000;
+}
+
+.chatbot-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #000069;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.chatbot-button:hover {
+  background-color: #001123;
+}
+
+.chatbot-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.chatbot-response {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.chatbot-response p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.chatbot-response p.error {
+  color: red;
+}
+
+.chatbot-table {
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.chatbot-table th, .chatbot-table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.chatbot-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .chatbot-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .chatbot-button {
+    width: 100%;
+  }
+
+  .chatbot-table {
+    font-size: 14px;
+  }
+}

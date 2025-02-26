@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 80px;
+  padding: 15px 30px;
+  background-color: rgba(0, 15, 30, 0); /* Transparent background */
+  color: white;
+  position: fixed; /* Keeps it fixed on top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it stays above other elements */
+  backdrop-filter: blur(10px); /* Adds a blur effect for a glassy look */
+}
+
+  
+  .logo {
+    margin-left: 40px;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 80px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+  }
+  
+  .nav-links li a:hover {
+    color: #00c6ff;
+  }
+  
